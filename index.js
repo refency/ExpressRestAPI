@@ -19,7 +19,7 @@ app.use(fileupload({}));
 
 app.use('/api', router);
 app.use(errorMiddleware);
-app.use('/api-doc', swaggerUi.serve, swaggerUi.setup(swaggerFile))
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerFile))
 
 async function startApp() {
     try {
