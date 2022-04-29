@@ -1,5 +1,5 @@
 # REST_API_Welbex
-This project is test task for creating API to work with classes and reports
+This project is test task for creating API to work with entries on website
 # Installation
 To install all needed dependencies run: npm i
 # Launching
